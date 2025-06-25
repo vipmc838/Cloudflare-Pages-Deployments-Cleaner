@@ -7,15 +7,20 @@
 
 ## 🧰 功能特性
 
-- ✅ 自动获取所有部署列表
-- ✅ 排除当前生产版本部署（canonical deployment）
-- ✅ 支持强制删除 alias 版本
-- ✅ 支持命令行手动运行或 GitHub Actions 自动执行
+- ✅ 自动获取所有部署列表  
+- ✅ 排除当前生产版本部署（canonical deployment）  
+- ✅ 支持强制删除 alias 版本  
+- ✅ 支持命令行手动运行或 GitHub Actions 自动执行  
 
 ---
 
 ## 🧪 使用方式 1：本地命令行执行
 
-> 🔗 脚本原作者：[@cm大佬](https://blog.cmliussss.com/p/CFPagesDeleteArchive/)  
+> 🔗 脚本原作者：[**@cm大佬**](https://github.com/cmliu)  
+> 📖 [点击查看原文教程](https://blog.cmliussss.com/p/CFPagesDeleteArchive/)  
 > 感谢 cm 大佬无私分享原始脚本！
 
+## 🤖 使用方式 2：GitHub Actions 自动执行
+你也可以将删除任务交给 GitHub Actions 自动运行，无需本地环境！
+
+### 📁 项目结构示例
