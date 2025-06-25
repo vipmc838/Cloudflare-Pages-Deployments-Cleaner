@@ -31,7 +31,8 @@
 
 ### 🔐 GitHub Secrets 配置
 
-进入仓库 → **Settings → Secrets and variables → Actions**，添加以下 3 项：  
+在 Github 上先 Fork 本项目，并点上 Star !!!
+进入Fork的仓库 → **Settings → Secrets and variables → Actions**，添加以下 3 项：  
 
 不懂变量在哪里获取的请先看教程原文：[https://blog.cmliussss.com/p/CFPagesDeleteArchive/](https://blog.cmliussss.com/p/CFPagesDeleteArchive/)  
 
