@@ -14,16 +14,19 @@ jobs:
       CF_DELETE_ALIASED_DEPLOYMENTS: true
 
     steps:
-      - name: Checkout repository
+      - name: 将代码拉取到工作流虚拟机环境中
         uses: actions/checkout@v4
 
-      - name: Setup Node.js environment
+      - name: 设置 Node.js 环境
         uses: actions/setup-node@v4
         with:
           node-version: 16
 
-      - name: Install dependencies
+      - name: 安装依赖
         run: npm ci
 
-      - name: Run cleaner script
+      - name: 执行批量删除脚本
         run: npm start
+
+        - name: 执行完成
+        run: echo "批量删除已完成！"
