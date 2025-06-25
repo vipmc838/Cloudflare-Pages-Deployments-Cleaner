@@ -31,7 +31,7 @@
 
 ### 🔐 GitHub Secrets 配置
 
-进入仓库 → **Settings → Secrets and variables → Actions**，添加以下 3 项：
+进入仓库 → **Settings → Secrets and variables → Actions**，添加以下 3 项：  不懂变量在哪里获取的请先看教程原文：[https://blog.cmliussss.com/p/CFPagesDeleteArchive/](https://blog.cmliussss.com/p/CFPagesDeleteArchive/)  
 
 | 环境变量                  | 说明                      |
 |---------------------------|---------------------------|
